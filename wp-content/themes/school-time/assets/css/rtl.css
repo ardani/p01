@@ -1,0 +1,245 @@
+menu, ol, ul {
+    padding: 0 20px 0 0;
+}
+
+.wh-theme-icon {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.st-video-popup .box {
+    left: 0;
+    right: auto;
+}
+.st-video-popup .tri {
+    left: auto;
+    right: 28%;
+}
+
+/* fix main menu links order */
+
+.sf-menu > li {
+    float: right;
+}
+
+.sf-menu.wh-menu-main {
+    margin-left: auto;
+    margin-right: -25px;
+}
+
+/* fix main menu separators location and change the it to '-' instead of 'x' */
+.sf-menu.wh-menu-main li:after {
+    right: initial;
+    left: -3px;
+}
+
+/* fix submenu position */
+.sf-menu ul {
+    left: initial;
+    right: 0;
+}
+
+/* fix accordion FAQ */
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title > a:before {
+    left: initial;
+    right: 7px;
+}
+
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon {
+    right: 14px;
+    left: initial;
+}
+
+.vc_tta.vc_general .vc_tta-panel-title > a {
+    padding-left: initial;
+    padding-right: 39px !important;
+}
+
+.vc_tta-panel-title > a {
+    text-align: right;
+}
+
+/* fix main page events text padding */
+.linp-tribe-events .event .info {
+    padding-left: initial;
+    padding-right: 17px;
+}
+
+.linp-tribe-events-wrap .widget-title {
+    padding: 18px 62px 18px 18px;
+}
+
+.linp-tribe-events-wrap .widget-title i {
+    right: 17px;
+}
+
+.linp-post-list .item .meta-data span {
+    margin-left: 11px;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.linp-post-list .item .meta-data i {
+    float: right;
+    top: 7px;
+    margin-left: 6px;
+}
+
+.linp-post-list .item .meta-data .author a {
+    float: left;
+    margin-right: 7px;
+}
+
+.linp-post-list .item .meta-data .author i {
+    top: 7px;
+}
+
+/* fix sidebar location (left to right) */
+.column, .whole, .wholes, .whole.one, .wholes.one, .half, .halves, .half.one, .halves.one, .half.two, .halves.two, .third, .thirds, .third.one, .thirds.one, .third.two, .thirds.two, .third.three, .thirds.three, .fourth, .fourths, .fourth.one, .fourths.one, .fourth.two, .fourths.two, .fourth.three, .fourths.three, .fourth.four, .fourths.four, .fifth, .fifths, .fifth.one, .fifths.one, .fifth.two, .fifths.two, .fifth.three, .fifths.three, .fifth.four, .fifths.four, .fifth.five, .fifths.five, .sixth, .sixths, .sixth.one, .sixths.one, .sixth.two, .sixths.two, .sixth.three, .sixths.three, .sixth.four, .sixths.four, .sixth.five, .sixths.five, .sixth.six, .sixths.six, .seventh, .sevenths, .seventh.one, .sevenths.one, .seventh.two, .sevenths.two, .seventh.three, .sevenths.three, .seventh.four, .sevenths.four, .seventh.five, .sevenths.five, .seventh.six, .sevenths.six, .seventh.seven, .sevenths.seven, .eighth, .eighths, .eighth.one, .eighths.one, .eighth.two, .eighths.two, .eighth.three, .eighths.three, .eighth.four, .eighths.four, .eighth.five, .eighths.five, .eighth.six, .eighths.six, .eighth.seven, .eighths.seven, .eighth.eight, .eighths.eight, .ninth, .ninths, .ninth.one, .ninths.one, .ninth.two, .ninths.two, .ninth.three, .ninths.three, .ninth.four, .ninths.four, .ninth.five, .ninths.five, .ninth.six, .ninths.six, .ninth.seven, .ninths.seven, .ninth.eight, .ninths.eight, .ninth.nine, .ninths.nine, .tenth, .tenths, .tenth.one, .tenths.one, .tenth.two, .tenths.two, .tenth.three, .tenths.three, .tenth.four, .tenths.four, .tenth.five, .tenths.five, .tenth.six, .tenths.six, .tenth.seven, .tenths.seven, .tenth.eight, .tenths.eight, .tenth.nine, .tenths.nine, .tenth.ten, .tenths.ten, .eleventh, .elevenths, .eleventh.one, .elevenths.one, .eleventh.two, .elevenths.two, .eleventh.three, .elevenths.three, .eleventh.four, .elevenths.four, .eleventh.five, .elevenths.five, .eleventh.six, .elevenths.six, .eleventh.seven, .elevenths.seven, .eleventh.eight, .elevenths.eight, .eleventh.nine, .elevenths.nine, .eleventh.ten, .elevenths.ten, .eleventh.eleven, .elevenths.eleven, .twelfth, .twelfths, .twelfth.one, .twelfths.one, .twelfth.two, .twelfths.two, .twelfth.three, .twelfths.three, .twelfth.four, .twelfths.four, .twelfth.five, .twelfths.five, .twelfth.six, .twelfths.six, .twelfth.seven, .twelfths.seven, .twelfth.eight, .twelfths.eight, .twelfth.nine, .twelfths.nine, .twelfth.ten, .twelfths.ten, .twelfth.eleven, .twelfths.eleven, .twelfth.twelve, .twelfths.twelve {
+    float: right;
+}
+
+form {
+    direction: rtl;
+}
+
+.wpcf7-form [class^="vc_col-"] {
+    float: right;
+}
+
+/* contact form 7 */
+span.wpcf7-not-valid-tip {
+    direction: rtl;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+    left: auto;
+    right: 20%;
+}
+
+span.wpcf7-list-item {
+    margin-left: 0;
+    margin-right: 0.5em;
+}
+
+/* sticky logo */
+.wh-sticky-header .logo-sticky {
+    float: right;
+}
+
+/* breadcrumbs */
+.breadcrumbs .trail-browse, .breadcrumbs .trail-items, .breadcrumbs .trail-items li {
+    float: right;
+}
+.wh-breadcrumbs a {
+    float: right;
+}
+
+.trail-items li::after {
+    content: "" !important;
+    padding: 0 !important;
+}
+
+.trail-items li::before {
+    content: "\e9f3" !important;
+    padding: 0 9px !important;
+    font-family: icomoon;
+    font-size: 9px;
+    font-weight: normal;
+    position: relative;
+    top: -1px;
+    color: #CDCDD1;
+}
+.trail-items li:last-of-type::before {
+    display: none;
+}
+
+/* Sidebar */
+.wh-sidebar .children-links ul li {
+    padding: 13px 20px 13px 13px;
+    border-right: 4px solid rgba(0, 0, 0, 0);
+}
+
+.wh-sidebar .children-links ul li.current_page_item,
+.wh-sidebar .children-links ul li:hover {
+    border-left: 0;
+    border-right: 4px solid #ff7264;
+}
+
+.widget-latest-posts .widget-post-list-item .meta-data span {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+/* responsive menu */
+.respmenu-open {
+    right: initial;
+    left: 0;
+}
+.respmenu-open, .respmenu-submenu-toggle {
+    float: left;
+}
+
+/* widgets */
+.widget ul {
+    padding: 0 24px 0 0;
+    margin: 0;
+}
+.tagcloud a {
+    float: right;
+}
+
+/* post list */
+.entry-meta span {
+    float:right;
+}
+.entry-meta span i {
+    float: right;
+    margin-left: 7px;
+    margin-right: 0;
+}
+.entry-meta span:first-child {
+    margin: 0 3px 0 10px;
+}
+blockquote {
+    padding: 0 60px 23px 25px;
+}
+blockquote:before {
+    right: -48px;
+    left: auto;
+}
+.single .prev-next-item .left-cell {
+    padding-right: 0;
+    padding-left: 20px;
+    border-left: 1px solid #ECEDF0;
+    text-align: right;
+}
+.single .prev-next-item .right-cell {
+    padding-left:0;
+    padding-right: 20px;
+    border-left: 0;
+    text-align: left;
+}
+.share-this .share-title {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+.share-this .share-buttons {
+    float: right;
+}
+
+/* comments */
+.comment-list .comment .body, .comment-list ul .comment .body {
+    margin-left: auto;
+    margin-right: 85px;
+}
+
+/* custom vc addons */
+.post-type-archive-teacher .teacher .text, .scp-teachers .teacher .text, .widget-teachers .teacher .text {
+    float: right;
+    margin-right: auto;
+    margin-left: 7px;
+}

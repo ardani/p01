@@ -1,0 +1,28 @@
+.st-video-popup .vc_figure {
+    position: relative;
+}
+
+.st-video-popup .box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.st-video-popup .tri {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    margin-top: -7px;
+    margin-left: -3px;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 9px solid #fff;
+}
