@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WPBakery Page Builder
+Plugin Name: WPBakery Page Builder |  VestaThemes.com
 Plugin URI: http://wpbakery.com
 Description: Drag and drop page builder for WordPress. Take full control over your WordPress site, build any layout you can imagine – no programming knowledge required.
 Version: 5.4.7
